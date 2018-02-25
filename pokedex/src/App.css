@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  background-color: #1e1d2f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.App__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App__content {
+  display: flex;
+  height: 500px;
+  align-items: center;
+}

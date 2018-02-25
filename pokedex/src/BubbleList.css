@@ -1,0 +1,8 @@
+.BubbleList {
+  width: 530px;
+  position: relative;
+}
+
+.BubbleList__item {
+  position: absolute;
+}

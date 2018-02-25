@@ -1,0 +1,54 @@
+.Input {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #9e9e9e;
+  margin-bottom: 50px;
+}
+
+.Input__input {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  font-family: Roboto;
+  color: #fff;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+  display: flex;
+}
+
+.Input__search {
+  background: none;
+  border: none;
+  width: 45px;
+  height: 35px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.Input__search img {
+  width: 80%;
+}
+
+.Input__input:focus ~ .Input__label,
+.Input__input:not(:focus):valid ~ .Input__label {
+  top: -10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.Input__label {
+  position: absolute;
+  pointer-events: none;
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: #e9e9e9;
+  left: 10px;
+  top: 5px;
+  transition: 0.2s ease all;
+}
+
+.Clear {
+  clear: both;
+}
